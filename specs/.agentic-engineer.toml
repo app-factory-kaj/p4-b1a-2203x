@@ -1,0 +1,4 @@
+apiVersion = "agentic-engineer/v1"
+name = "p4-b1a-2203x"
+createdAt = "2026-10-04T16:33:56Z"
+idea = "A tiny greeter service that returns a hello message; follow the repo conventions."
