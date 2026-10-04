@@ -6,7 +6,7 @@ Teams building services and demos on this platform repeatedly need a minimal, de
 
 ## Solution
 
-A tiny greeter service exposing a single endpoint that returns a hello message, optionally personalized with a caller-supplied name. It exists to be simple, reliable, and to follow this organization's standard repo and service conventions, so it can double as a reference implementation for other services.
+A tiny greeter service exposing a single endpoint that returns a hello message, optionally personalized with a caller-supplied name. It exists to be simple, reliable, and to follow this organization's standard repo and service conventions, so it can double as a reference implementation for other services. This project also serves as a Phase 4 checkpoint probe.
 
 ## Actors
 
