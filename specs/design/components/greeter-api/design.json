@@ -1,0 +1,14 @@
+{
+  "name": "greeter-api",
+  "type": "service",
+  "version": "0.1.0",
+  "language": "Ballerina",
+  "buildpack": "docker",
+  "appPath": "greeter-api",
+  "entrypoint": "deployment/service",
+  "exposure": "intranet",
+  "dependencies": [],
+  "description": "A tiny stateless greeter service exposing a single endpoint that returns a hello message, optionally personalized with a caller-supplied name. It stores nothing and requires no authentication; it does not expose a UI, send notifications, or integrate with any third-party service.",
+  "stories": [1, 2],
+  "skillsPinned": ["openapi-conventions", "ballerina"]
+}

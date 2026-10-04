@@ -1,0 +1,5 @@
+title Greeter Service
+
+component greeter-api as "Greeter API" service
+
+west -> greeter-api
