@@ -16,7 +16,8 @@ paths:
           required: false
           schema:
             type: string
-          description: Optional name to personalize the greeting with
+            maxLength: 100
+          description: Optional name to personalize the greeting with; rejected with 400 if longer than 100 characters
       responses:
         '200':
           description: The greeting
@@ -42,7 +43,9 @@ components:
           description: The name supplied by the caller, if any
         message:
           type: string
-          description: The greeting text, e.g. "Hello, World!"
+          description: >-
+            The greeting text: exactly "Hello, World!" when no name was supplied,
+            or exactly "Hello, <name>!" when one was
     Error:
       type: object
       required: [code, message]
